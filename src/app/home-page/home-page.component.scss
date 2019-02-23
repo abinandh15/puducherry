@@ -1,0 +1,16 @@
+.masterHead{
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../../assets/Header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.WhereTo{
+    border: 1px black solid;
+    padding:5px 15px;
+    margin-left:auto;
+    margin-right:auto;
+    cursor:pointer;
+}

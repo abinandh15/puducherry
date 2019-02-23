@@ -1,0 +1,31 @@
+<!-- Page Content -->
+<div class="container py-5">
+
+    <!-- Page Heading -->
+    <h1 class="my-4">Guest House
+      <small>Best options listed here</small>
+    </h1>
+
+    <!-- Project One -->
+    <div class="row mt-5" *ngFor="let guestHouse of guestHouseList">
+      <div class="col-md-6">
+        <a href="#">
+          <img class="img-fluid image-resize rounded mb-3 mb-md-0 shadow" src="{{guestHouse.url}}" alt="">
+        </a>
+      </div>
+      <div class="col-md-6 text-center mt-auto mb-auto">
+        <h3 class="mb-3">{{guestHouse.name}}</h3>
+        <p>{{guestHouse.description}}</p>
+        <div class="align-bottom">
+            <a class="btn btn-outline-dark" href="#">More Details</a>
+        </div>
+        
+      </div>
+      <hr class="mt-5"  align="center" width="80%">
+    </div>
+    <!-- /.row -->
+
+
+
+  </div>
+  <!-- /.container -->
