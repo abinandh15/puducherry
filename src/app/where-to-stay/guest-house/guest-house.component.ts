@@ -15,22 +15,22 @@ export class GuestHouseComponent implements OnInit {
     this.guestHouseList =[
       {
         "name":"Bharathi Park",
-        "url":"../../../assets/Pondicherry-Aayi-mandapam.png",
+        "url":"./assets/Pondicherry-Aayi-mandapam.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
       },
       {
         "name":"Heritage walk",
-        "url":"../../../assets/Pondicherry-Heritage-walk.png",
+        "url":"./assets/Pondicherry-Heritage-walk.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
       },
       {
         "name":"Prominade Beach",
-        "url":"../../../assets/Pondicherry-promenade-beach.png",
+        "url":"./assets/Pondicherry-promenade-beach.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
       },
       {
         "name":"Bharathi Park",
-        "url":"../../assets/Pondicherry-Aayi-mandapam.png",
+        "url":"./assets/Pondicherry-Aayi-mandapam.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
       }
     ]
