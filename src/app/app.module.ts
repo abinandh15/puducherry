@@ -11,6 +11,8 @@ import { GuestHouseComponent } from './where-to-stay/guest-house/guest-house.com
 import { VehicleForRentComponent } from './vehicle-for-rent/vehicle-for-rent.component';
 import { RentalCarsComponent } from './vehicle-for-rent/rental-cars/rental-cars.component';
 import { RentalBikesComponent } from './vehicle-for-rent/rental-bikes/rental-bikes.component';
+import { ListComponent } from './list/list.component';
+import { WhereToStayDetailsComponent } from './where-to-stay-details/where-to-stay-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { RentalBikesComponent } from './vehicle-for-rent/rental-bikes/rental-bik
     GuestHouseComponent,
     VehicleForRentComponent,
     RentalCarsComponent,
-    RentalBikesComponent
+    RentalBikesComponent,
+    ListComponent,
+    WhereToStayDetailsComponent
   ],
   imports: [
     BrowserModule,
