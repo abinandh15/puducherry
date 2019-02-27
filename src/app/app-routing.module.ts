@@ -9,6 +9,8 @@ import { VehicleForRentComponent } from './vehicle-for-rent/vehicle-for-rent.com
 import { RentalBikesComponent } from './vehicle-for-rent/rental-bikes/rental-bikes.component';
 import { RentalCarsComponent } from './vehicle-for-rent/rental-cars/rental-cars.component';
 import { WhereToStayDetailsComponent } from './where-to-stay-details/where-to-stay-details.component';
+import { BlogListComponent } from './blog-list/blog-list.component';
+import { BlogPageComponent } from './blog-page/blog-page.component';
 
 const routes: Routes = [
   {path:'', component:HomePageComponent},
@@ -19,7 +21,10 @@ const routes: Routes = [
   {path:'resort',component:ResortsComponent},
   {path:'rental-cars',component:RentalCarsComponent},
   {path:'rental-bikes',component:RentalBikesComponent},
-  {path:'wheretostay-details',component:WhereToStayDetailsComponent}
+  {path:'wheretostay-details',component:WhereToStayDetailsComponent},
+  {path:'blog-list',component:BlogListComponent},
+  {path:'blog-page',component:BlogPageComponent}
+
 ];
 
 @NgModule({

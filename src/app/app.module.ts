@@ -14,6 +14,9 @@ import { RentalBikesComponent } from './vehicle-for-rent/rental-bikes/rental-bik
 import { ListComponent } from './list/list.component';
 import { WhereToStayDetailsComponent } from './where-to-stay-details/where-to-stay-details.component';
 
+import { BlogListComponent } from './blog-list/blog-list.component';
+import { BlogPageComponent } from './blog-page/blog-page.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +29,9 @@ import { WhereToStayDetailsComponent } from './where-to-stay-details/where-to-st
     RentalCarsComponent,
     RentalBikesComponent,
     ListComponent,
-    WhereToStayDetailsComponent
+    WhereToStayDetailsComponent,
+    BlogListComponent,
+    BlogPageComponent
   ],
   imports: [
     BrowserModule,
