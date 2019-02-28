@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-where-to-go',
@@ -10,7 +11,7 @@ export class WhereToGoComponent implements OnInit {
 
   places: Object;
 
-  constructor() { }
+  constructor( public router:Router ) { }
 
   ngOnInit() {
     this.places =[
@@ -35,6 +36,10 @@ export class WhereToGoComponent implements OnInit {
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
       }
     ];
+  }
+
+  public openList(category){
+    this.router.navigate( ['list'], { queryParams: { id: category}});
   }
 
 }

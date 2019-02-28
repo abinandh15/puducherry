@@ -1,3 +1,30 @@
-<p>
-  list works!
-</p>
+<!-- Page Content -->
+<div class="container py-5">
+
+  <!-- Page Heading -->
+  <h1 class="my-4">{{title}}
+    <small>Best options listed here</small>
+  </h1>
+
+  <!-- Project One -->
+  <div class="row mt-5" routerLink="/wheretostay-details" *ngFor="let list of listObject | async">
+    <div class="col-md-6">
+   
+        <img class="img-fluid image-resize rounded mb-3 mb-md-0 shadow" src="{{list.url}}" alt="">
+  
+    </div>
+    <div class="col-md-6 text-center mt-auto mb-auto">
+      <h3 class="mb-3">{{list.name}}</h3>
+      <p>{{list.description}}</p>
+      <div class="align-bottom btn btn-outline-dark">
+          More Details
+      </div>      
+    </div>
+    <hr class="mt-5"  align="center" width="80%">
+  </div>
+  <!-- /.row -->
+
+
+
+</div>
+<!-- /.container -->

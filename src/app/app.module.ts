@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { WhereToGoComponent } from './where-to-go/where-to-go.component';
 import { WhereToStayComponent } from './where-to-stay/where-to-stay.component';
-import { ResortsComponent } from './where-to-stay/resorts/resorts.component';
-import { GuestHouseComponent } from './where-to-stay/guest-house/guest-house.component';
 import { VehicleForRentComponent } from './vehicle-for-rent/vehicle-for-rent.component';
 import { RentalCarsComponent } from './vehicle-for-rent/rental-cars/rental-cars.component';
 import { RentalBikesComponent } from './vehicle-for-rent/rental-bikes/rental-bikes.component';
@@ -16,6 +14,7 @@ import { WhereToStayDetailsComponent } from './where-to-stay-details/where-to-st
 
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,6 @@ import { BlogPageComponent } from './blog-page/blog-page.component';
     HomePageComponent,
     WhereToGoComponent,
     WhereToStayComponent,
-    ResortsComponent,
-    GuestHouseComponent,
     VehicleForRentComponent,
     RentalCarsComponent,
     RentalBikesComponent,
@@ -35,7 +32,8 @@ import { BlogPageComponent } from './blog-page/blog-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

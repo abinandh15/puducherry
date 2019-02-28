@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Rock Beach",
+      "url": "./assets/beach/rockBeach.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Serenity Beach",
+      "url": "./assets/beach/serenity-beach.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Paradise Beach",
+      "url": "./assets/beach/paradiseBeach.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Promenade Beach",
+      "url": "./assets/beach/promenadeBeach.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Auro Beach",
+      "url": "./assets/beach/auroBeach.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Temple Beach",
+      "url": "./assets/beach/arikamedu.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Pondy Marina Beach",
+      "url": "./assets/beach/pondyMarina.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Eden Beach",
+      "url": "./assets/beach/edenBeach.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Big Beach",
+      "url": "./assets/beach/bigBeach.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    }
+]

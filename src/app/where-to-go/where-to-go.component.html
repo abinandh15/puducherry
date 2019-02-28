@@ -8,9 +8,9 @@
   </h1>
 
   <div class="row" *ngFor="let place of places; let i = index">
-    <div *ngIf="i%2==0" class="col-lg-6 mb-4 p-5">
+    <div (click)="openList(place.name)" *ngIf="i%2==0" class="col-lg-6 mb-4 p-5">
       <div class="card h-100 shadow ">
-        <a href="#"><img class="card-img-top"  src="{{place.url}}" alt=""></a>
+        <img class="card-img-top"  src="{{place.url}}" alt="">
         <div class="card-body text-center">
           <h4 >
            {{place.name}}
@@ -20,8 +20,8 @@
       </div>
     </div>
     <div *ngIf="i%2==0" class="col-lg-6 mb-4 p-5">
-      <div class="card h-100 shadow">
-        <a href="#"><img class="card-img-top"  src="{{places[i+1].url}}" alt=""></a>
+      <div (click)="openList(places[i+1].name)" class="card h-100 shadow">
+        <img class="card-img-top"  src="{{places[i+1].url}}" alt="">
         <div class="card-body text-center">
           <h4>
            {{places[i+1].name}}

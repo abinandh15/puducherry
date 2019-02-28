@@ -1,0 +1,112 @@
+[
+    {
+      "name": "Ashok Beach Resorts",
+      "url": "./assets/Resorts/AshokBeachResort.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Auro Resort",
+      "url": "./assets/Resorts/AuroResort.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Ocean Spray",
+      "url": "./assets/Resorts/OceanSpray.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Le Pondy",
+      "url": "./assets/Resorts/LePondy.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "The WindFLower Resorts and Spa",
+      "url": "./assets/Resorts/windflower.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Grand Serenna Hotels",
+      "url": "./assets/Resorts/grandSerenna.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Mapple Leaf Beach Resort",
+      "url": "./assets/Resorts/mappelLeaf.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "RKN Beach Resort",
+      "url": "./assets/Resorts/rknBeachResort.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "K Resort",
+      "url": "./assets/Resorts/kResort.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "The Dune Eco Beach Resort",
+      "url": "./assets/Resorts/DuneEco.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Club Mahindra",
+      "url": "./assets/Resorts/club-mahindra-puducherry.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Mango Hills",
+      "url": "./assets/Resorts/MangoHill.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Koral Resorts",
+      "url": "./assets/Resorts/KolarResort.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Dune De L'orient",
+      "url": "./assets/Resorts/Dune De L'orient.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Kailash Beach Resort",
+      "url": "./assets/Resorts/kailashBeachResort.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "St. James Court Beach Resort",
+      "url": "./assets/Resorts/st-james-court-beach.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Nalla Eco Beach House",
+      "url": "./assets/Resorts/nallaEcoHouse.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Flora Beach Resort",
+      "url": "./assets/Resorts/floraBeachResort.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Soorya beach Resort",
+      "url": "./assets/Resorts/sooryaResort.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Sunway Munor",
+      "url": "./assets/Resorts/SunwayMunor.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Prince Park Farm House",
+      "url": "./assets/Resorts/prince-park-resort-pondicherry.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Purple Resorts",
+      "url": "./assets/Resorts/purpleResorts.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    }
+  ]

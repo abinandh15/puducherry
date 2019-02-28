@@ -1,0 +1,72 @@
+[
+    {
+      "name": "Light House",
+      "url": "./assets/Other/newLightHouse.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Old Light House",
+      "url": "./assets/Other/oldLightHouse.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Raj Nivas",
+      "url": "./assets/Other/rajNivas.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "French War Memorial",
+      "url": "./assets/Other/frenchWarMemorial.JPG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Mahatma Gandhi Statue",
+      "url": "./assets/Other/gandhiStatue.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Pondicherry Botanical Garden",
+      "url": "./assets/Other/botanicalGarden.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Pondicherry Museum",
+      "url": "./assets/Other/pondicherry-museum.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Park Monument (Aayi Mandapam)",
+      "url": "./assets/Other/aayiMandapam.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Bharathi Park",
+      "url": "./assets/Other/bharathiPark.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Statue of Dupleix",
+      "url": "./assets/Other/Dupleix.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Providence Mall",
+      "url": "./assets/Other/providenceMall.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Pogo Land",
+      "url": "./assets/Other/pogoLand.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Sunday Market",
+      "url": "./assets/Other/sundayMarket.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Art and Handicrafts Murungapakkam",
+      "url": "./assets/Other/artHandicraftsMurungapakkam.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    }
+  ]

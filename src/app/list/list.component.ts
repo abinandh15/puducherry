@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-list',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  listObject:Object;
+  title:string;
+
+  constructor(public http:HttpClient, public router:ActivatedRoute) { }
 
   ngOnInit() {
+    this.title = this.router.snapshot.queryParams['id'];
+    this.listObject = this.http.get('./assets/json/'+this.title+'List.json');
   }
 
 }

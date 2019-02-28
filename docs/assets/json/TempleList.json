@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Manakula Vinayakar Temple",
+      "url": "./assets/Temple/manakulaVinayakar.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "The Basilica of the Sacred Heart of Jesus",
+      "url": "./assets/Temple/basilica.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Lady Des Angels - Notre Dames Church",
+      "url": "./assets/Temple/notreDamesChurch.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Immaculate Conception Cathedral",
+      "url": "./assets/Temple/immaculateCathedral.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Varadharaja Perumal Kovil",
+      "url": "./assets/Temple/VaradharajaPerumalKovil.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "ISKCON Temple",
+      "url": "./assets/Temple/ISKCONTemple.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Sri Karaneswar Nataraja Temple - Pyramid Temple",
+      "url": "./assets/Temple/PyramidTemple.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Panchavadi Aanjaneyar Temple",
+      "url": "./assets/Temple/panchavadi.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Gokilambal Thirukameswarar Temple",
+      "url": "./assets/Temple/gokilambalTemple.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Meeran Mosque",
+      "url": "./assets/Temple/Meeran-mosque.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name": "Sai Baba Temple Kalapet",
+      "url": "./assets/Temple/Sai Baba Temple.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    }
+  ]

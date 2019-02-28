@@ -1,0 +1,17 @@
+[
+    {
+      "name":"Chunnambar BoatHouse",
+      "url":"./assets/boatHouse/chunnambar.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name":"Oussudu Boat house",
+      "url":"./assets/boatHouse/ousteriLake.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    },
+    {
+      "name":"Ocean Park",
+      "url":"./assets/boatHouse/oceanPark.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+    }
+]
