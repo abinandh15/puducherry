@@ -24,11 +24,10 @@ const routes: Routes = [
   {path:'blog-page',component:BlogPageComponent},
   {path:'list',component:ListComponent},
   {path:'place-details',component:PlaceDetailsComponent}
-
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

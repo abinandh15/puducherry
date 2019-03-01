@@ -3,33 +3,37 @@
 <div class="container pt-5">
 
   <!-- Page Heading -->
-  <h1 class="my-5">WHERE TO GO
-    <small>Places you must visit</small>
-  </h1>
+  <div class="row pt-5" >
+      <div class="WhereTo ">
+        <h4 class="mt-1">WHERE TO STAY</h4>
+      </div>
+    </div>
 
-  <div class="row" *ngFor="let place of places; let i = index">
-    <div (click)="openList(place.name)" *ngIf="i%2==0" class="col-lg-6 mb-4 p-5">
-      <div class="card h-100 shadow ">
-        <img class="card-img-top"  src="{{place.url}}" alt="">
+  <div class="row pt-2" *ngFor="let place of places; let i = index">
+    <div (click)="openList(place.name)" *ngIf="i%2==0" class="col-lg-6 p-5">
+      <div class="card shadow">
+        <div class="thumbnail p-2">
+            <img class="card-img-top" height="300px" src="{{place.url}}" alt="">
+        </div>        
         <div class="card-body text-center">
-          <h4 >
-           {{place.name}}
-          </h4>
-          <p class="card-text">{{place.description}}</p>
+          <h5 class="text-uppercase">{{place.name}}</h5>
+          <p class="card-text text-black-50">Click to see details</p>
         </div>
       </div>
     </div>
-    <div *ngIf="i%2==0" class="col-lg-6 mb-4 p-5">
-      <div (click)="openList(places[i+1].name)" class="card h-100 shadow">
-        <img class="card-img-top"  src="{{places[i+1].url}}" alt="">
+    <div (click)="openList(places[i+1].name)" *ngIf="i%2==0" class="col-lg-6 p-5">
+      <div class="card shadow">
+        <div class="thumbnail p-2">
+            <img class="card-img-top" height="300px" src="{{places[i+1].url}}" alt="">  
+        </div>
+       
         <div class="card-body text-center">
-          <h4>
-           {{places[i+1].name}}
-          </h4>
-          <p class="card-text">{{places[i+1].description}}</p>
+          <h5 class="text-uppercase">{{places[i+1].name}}</h5>
+          <p class="card-text text-black-50">Click to see details</p>
         </div>
       </div>
     </div>
+    
     
   </div>
   <!-- /.row -->

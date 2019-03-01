@@ -10,9 +10,11 @@
     <!-- Team Member 1 -->
     <div class="col-xl-6 col-md-6 mb-4" >
       <div class="card border-0 shadow" [routerLink]="['/list']" [queryParams]="{ id: 'GuestHouse'}">
-        <img src="./assets/Untitled-1.png" class="card-img-top" alt="...">
+        <div class="thumbnail p-2">
+          <img src="./assets/Untitled-1.png" class="card-img-top" alt="...">
+        </div>
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Guest House</h5>
+          <h5 class="card-title text-uppercase mb-0">Guest House</h5>
           <div class="card-text text-black-50">Click to see options</div>
         </div>
       </div>
@@ -20,9 +22,12 @@
     <!-- Team Member 2 -->
     <div class="col-xl-6 col-md-6 mb-4" >
       <div class="card border-0 shadow" [routerLink]="['/list']" [queryParams]="{ id: 'Resort'}">
-        <img src="./assets/488556_17041317100052375189.jpg" class="card-img-top" alt="...">
+        <div class="thumbnail p-2">
+            <img src="./assets/488556_17041317100052375189.jpg" class="card-img-top" alt="...">
+        </div>
+        
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Resort</h5>
+          <h5 class="card-title text-uppercase mb-0">Resort</h5>
           <div class="card-text text-black-50">Click to see options</div>
         </div>
       </div>
