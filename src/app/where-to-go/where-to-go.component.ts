@@ -18,7 +18,7 @@ export class WhereToGoComponent implements OnInit {
       {
         "name":"Beach",
         "url":"./assets/Pondicherry-promenade-beach.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
+        "description":"Rock beach is one of the most prominent beach in Pondy. Unlike traditional beaches this is filled with rocks where you can get an amazing sunrise and sunset view."
       },
       {
         "name":"Boating",

@@ -15,6 +15,7 @@ import { WhereToStayDetailsComponent } from './where-to-stay-details/where-to-st
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PlaceDetailsComponent } from './place-details/place-details.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     ListComponent,
     WhereToStayDetailsComponent,
     BlogListComponent,
-    BlogPageComponent
+    BlogPageComponent,
+    PlaceDetailsComponent
   ],
   imports: [
     BrowserModule,

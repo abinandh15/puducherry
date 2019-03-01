@@ -7,7 +7,7 @@
   </h1>
 
   <!-- Project One -->
-  <div class="row mt-5" routerLink="/wheretostay-details" *ngFor="let list of listObject | async">
+  <div class="row mt-5" *ngFor="let list of listObject | async">
     <div class="col-md-6">
    
         <img class="img-fluid image-resize rounded mb-3 mb-md-0 shadow" src="{{list.url}}" alt="">
@@ -16,7 +16,7 @@
     <div class="col-md-6 text-center mt-auto mb-auto">
       <h3 class="mb-3">{{list.name}}</h3>
       <p>{{list.description}}</p>
-      <div class="align-bottom btn btn-outline-dark">
+      <div (click)="openDetails(list.name)" class="align-bottom btn btn-outline-dark">
           More Details
       </div>      
     </div>

@@ -10,6 +10,7 @@ import { WhereToStayDetailsComponent } from './where-to-stay-details/where-to-st
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
 import { ListComponent } from './list/list.component';
+import { PlaceDetailsComponent } from './place-details/place-details.component';
 
 const routes: Routes = [
   {path:'', component:HomePageComponent},
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path:'wheretostay-details',component:WhereToStayDetailsComponent},
   {path:'blog-list',component:BlogListComponent},
   {path:'blog-page',component:BlogPageComponent},
-  {path:'list',component:ListComponent}
+  {path:'list',component:ListComponent},
+  {path:'place-details',component:PlaceDetailsComponent}
 
 ];
 
