@@ -23,3 +23,25 @@ section{
 .card{
     cursor:pointer;
 }
+@media (max-width: 500px) {
+    .masterHead{
+        height:0vh;
+        min-height: 346px;
+        background-image: url('../../assets/background-02.png');
+        background-size: cover;
+        background-position: center;
+    }
+      
+}
+
+@media (max-width: 1024px) and (min-width:501px) {
+    .masterHead{
+        height:80vh;
+        min-height: 385px;
+        background-image: url('../../assets/background-02.png');
+        background-size: cover;
+        background-position: center;
+    }
+      
+}
+
