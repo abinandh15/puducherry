@@ -11,6 +11,8 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
 import { ListComponent } from './list/list.component';
 import { PlaceDetailsComponent } from './place-details/place-details.component';
+import { PlanYourTripComponent } from './plan-your-trip/plan-your-trip.component';
+import { ThingsToDoComponent } from './things-to-do/things-to-do.component';
 
 const routes: Routes = [
   {path:'', component:HomePageComponent},
@@ -23,7 +25,9 @@ const routes: Routes = [
   {path:'blog-list',component:BlogListComponent},
   {path:'blog-page',component:BlogPageComponent},
   {path:'list',component:ListComponent},
-  {path:'place-details',component:PlaceDetailsComponent}
+  {path:'place-details',component:PlaceDetailsComponent},
+  {path:'plan-your-trip',component:PlanYourTripComponent},
+  {path:'things-to-do',component:ThingsToDoComponent},
 ];
 
 @NgModule({

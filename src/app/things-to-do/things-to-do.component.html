@@ -1,19 +1,15 @@
-<!-- Page Content -->
-
-<div class="container pt-5">
-
-  <!-- Page Heading -->
+<div class="container py-5">
   <div class="row pt-5" >
-      <div class="WhereTo ">
-        <h4 class="mt-1">WHERE TO STAY</h4>
-      </div>
+    <div class="WhereTo ">
+      <h4 class="mt-1">THINGS TO DO</h4>
     </div>
+  </div>
 
   <div class="row pt-2" *ngFor="let place of places; let i = index">
     <div (click)="openList(place.name)" *ngIf="i%2==0" class="col-lg-6 p-5">
       <div class="card shadow">
         <div class="thumbnail p-2">
-            <img class="card-img-top" height="300px" src="{{place.url}}" alt="">
+            <img class="card-img-top"  src="{{place.url}}" alt="">
         </div>        
         <div class="card-body text-center">
           <h5 class="text-uppercase">{{place.name}}</h5>
@@ -24,7 +20,7 @@
     <div (click)="openList(places[i+1].name)" *ngIf="i%2==0" class="col-lg-6 p-5">
       <div class="card shadow">
         <div class="thumbnail p-2">
-            <img class="card-img-top" height="300px" src="{{places[i+1].url}}" alt="">  
+            <img class="card-img-top"  src="{{places[i+1].url}}" alt="">  
         </div>
        
         <div class="card-body text-center">
@@ -36,7 +32,5 @@
     
     
   </div>
- 
-
+  
 </div>
-<!-- /.container -->

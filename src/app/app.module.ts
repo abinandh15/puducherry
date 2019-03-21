@@ -16,6 +16,8 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PlaceDetailsComponent } from './place-details/place-details.component';
+import { PlanYourTripComponent } from './plan-your-trip/plan-your-trip.component';
+import { ThingsToDoComponent } from './things-to-do/things-to-do.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PlaceDetailsComponent } from './place-details/place-details.component';
     WhereToStayDetailsComponent,
     BlogListComponent,
     BlogPageComponent,
-    PlaceDetailsComponent
+    PlaceDetailsComponent,
+    PlanYourTripComponent,
+    ThingsToDoComponent
   ],
   imports: [
     BrowserModule,
